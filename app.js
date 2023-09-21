@@ -22,6 +22,6 @@ while (true) {
   } else {
     answer++;
   }
-  alert("Your guess is ${guess}. The current value is now ${answer}.");
+  alert(`Your guess is ${guess}. The current value is now ${answer}.`);
 }
-alert("Game  over! You made ${guesses.lenght} guesses.");
+alert(`Game  over! You made ${guesses.lenght} guesses.`);
